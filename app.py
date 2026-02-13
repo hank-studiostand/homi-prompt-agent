@@ -166,7 +166,8 @@ with col_header_right:
     """
     components.html(html_content, height=80)
 
-st.markdown("GPT 단순 번역과 **HOMI 로직이 적용된 최적화 프롬프트**를 비교합니다. Base Engine = T2I : Nano Banana / I2V : Kling 2.5")
+st.markdown("GPT 단순 번역과 **HOMI 로직이 적용된 최적화 프롬프트**를 비교합니다." 
+            "최적화 엔진 = T2I : Nano Banana / I2V : Kling 2.5")
 
 # --- 탭 구성 ---
 tab_t2i, tab_i2v = st.tabs(["🖼️ T2I (이미지)", "🎥 I2V (비디오)"])
@@ -292,3 +293,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
